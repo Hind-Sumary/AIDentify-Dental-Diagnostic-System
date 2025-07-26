@@ -72,7 +72,7 @@ AIDentify is designed to be user-friendly and easy to train on. It has been depl
 
 ## Demo Video
 
-<video src="/Images/demoVideo.mp4" controls></video>
+[Click here to watch the demo video](./Images/demoVideo.mp4)
 
 
 ## Team
