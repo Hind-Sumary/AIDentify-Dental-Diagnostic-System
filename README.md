@@ -72,7 +72,7 @@ AIDentify is designed to be user-friendly and easy to train on. It has been depl
 
 ## Demo Video
 
-▶️ [Click here to watch the demo video](https://github.com/Hind-Sumary/AIDentify-Dental-Diagnostic-System/raw/main/Images/demoVideo.mp4)
+<video src="[https://github.com/user-attachments/assets/ec640cb5-0e55-451a-b21c-f4f230e24cfb]" controls width="600"></video>
 
 
 ## Team
