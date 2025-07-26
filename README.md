@@ -70,9 +70,9 @@ AIDentify is designed to be user-friendly and easy to train on. It has been depl
 
 
 
-## Demo Video
+### Demo Video
 
-<video src="(https://github.com/user-attachments/assets/ec640cb5-0e55-451a-b21c-f4f230e24cfb)" controls width="600"></video>
+<video src="https://github.com/user-attachments/assets/ec640cb5-0e55-451a-b21c-f4f230e24cfb" controls width="600"></video>
 
 
 ## Team
