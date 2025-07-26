@@ -14,29 +14,40 @@ AIDentify caters to three distinct user roles: Admin, Doctor, and Employee, each
 Admins have overarching control over user management and system monitoring:
 
 - **User Management:** Admins can review and accept applications from new users, manage existing user roles (e.g., changing a user's role from Employee to Doctor), and deactivate users as needed.
+
 ![Role Management Admin](/Images/roleManagementAdmin.jpeg)
+
 - **Admin Addition:** Ability to add new administrators to the system.
 - **System Logs:** Access to a detailed log file that tracks user activities within the system for security and auditing purposes.
-![Log Display for Admin](logDisplayForAdmin.jpeg)
+
+![Log Display for Admin](/Images/logDisplayForAdmin.jpeg)
 
 ### Doctor Features
 
 Doctors are equipped with advanced tools for dental image analysis and patient report generation:
 
 - **Image Upload & Enhancement:** Upload dental X-ray images and enhance them using the CLHE (Contrast Limited Adaptive Histogram Equalization) algorithm.
-![Main Screen Doctor](mainScreenDoctor.jpeg)
-![Enhancement Screen](Enhancment.jpeg)
+
+![Main Screen Doctor](/Images/mainScreenDoctor.jpeg)
+
+![Enhancement Screen](/Images/Enhancment.jpeg)
+
 - **Dual Model Analysis:**
-    - **Model 1 (Scratch-built):** Analyzes images for four types of diagnoses (e.g., ectopic, caries, and two others to be specified) and identifies healthy teeth. The diagnosis appears with a confidence level.
-    - **Model 2 (Pre-trained - Loki's repository):** Performs image segmentation and colorization, visually displaying annotations and diagnostics on the X-ray image. This model is based on a pre-trained model from 'Loki' on GitHub.
+    - **Model 1 (Scratch-built):** Analyzes images for four types of diagnoses (e.g., ectopic, caries, Decayed teeth) and identifies healthy teeth. The diagnosis appears with a confidence level.
+    - **Model 2 (Pre-trained):** Performs image segmentation and colorization, visually displaying annotations and diagnostics on the X-ray image. This model is based on a pre-trained model.d
 - **Image Navigation & Inversion:** Doctors can navigate through uploaded images and invert them for medical examination purposes.
 - **Checklist-based Diagnosis:** Diagnosis results from both models are presented in a checklist format, allowing doctors to confirm and select the correct findings.
 - **Report Generation:** Generate comprehensive PDF reports for patients, including patient data and diagnostic findings. These reports are directly accessible from the doctor's page and the reports section.
-![Report Management Doctor & Employee](reportManagementDoctor&Employee.jpeg)
+  
+![Report Management Doctor & Employee](/Images/reportManagementDoctor&Employee.jpeg)
+
 - **Statistics & Research:** Access to statistical screens displaying diagnostic trends in bar graph form, categorized by model version (v1 or v2), useful for research and analysis.
-![Statistics Screen](statisticsScreen.jpeg)
+
+![Statistics Screen](/Images/statisticsScreen.jpeg)
+
 - **Recent Analyses:** View a history of recent analyses performed, including scan ID, doctor, diagnosis result, and date.
-![Recent Analysis Screen](RecentAnalysisScreen.jpeg)
+
+![Recent Analysis Screen](/Images/RecentAnalysisScreen.jpeg)
 
 ### Employee Features
 
@@ -61,7 +72,7 @@ AIDentify is designed to be user-friendly and easy to train on. It has been depl
 
 ## Demo Video
 
-<video src="demoVideo.mp4" controls></video>
+<video src="/Images/demoVideo.mp4" controls></video>
 
 
 ## Team
