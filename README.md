@@ -14,7 +14,7 @@ AIDentify caters to three distinct user roles: Admin, Doctor, and Employee, each
 Admins have overarching control over user management and system monitoring:
 
 - **User Management:** Admins can review and accept applications from new users, manage existing user roles (e.g., changing a user's role from Employee to Doctor), and deactivate users as needed.
-![Role Management Admin](roleManagementAdmin.jpeg)
+![Role Management Admin](/Images/roleManagementAdmin.jpeg)
 - **Admin Addition:** Ability to add new administrators to the system.
 - **System Logs:** Access to a detailed log file that tracks user activities within the system for security and auditing purposes.
 ![Log Display for Admin](logDisplayForAdmin.jpeg)
